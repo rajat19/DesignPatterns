@@ -1,5 +1,6 @@
 package com.hfdp.abstractFactory.pizzas;
 
+import com.hfdp.abstractFactory.PizzaCuttingStyle;
 import com.hfdp.abstractFactory.ingredients.*;
 
 import java.util.Arrays;
@@ -12,6 +13,7 @@ public abstract class Pizza {
     protected Cheese cheese;
     protected Pepperoni pepperoni;
     protected Clams clams;
+    protected PizzaCuttingStyle cuttingStyle;
 
     public abstract void prepare();
 
@@ -20,7 +22,7 @@ public abstract class Pizza {
     }
 
     public void cut() {
-        System.out.println("Cutting the pizza into diagonal slices");
+        System.out.println(this.getCuttingStyle().getDescription());
     }
 
     public void box() {
@@ -33,6 +35,14 @@ public abstract class Pizza {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public PizzaCuttingStyle getCuttingStyle() {
+        return cuttingStyle;
+    }
+
+    public void setCuttingStyle(PizzaCuttingStyle cuttingStyle) {
+        this.cuttingStyle = cuttingStyle;
     }
 
     @Override

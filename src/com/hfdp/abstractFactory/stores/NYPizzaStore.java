@@ -1,5 +1,6 @@
 package com.hfdp.abstractFactory.stores;
 
+import com.hfdp.abstractFactory.PizzaCuttingStyle;
 import com.hfdp.abstractFactory.PizzaType;
 import com.hfdp.abstractFactory.ingredientFactories.NYPizzaIngredientFactory;
 import com.hfdp.abstractFactory.ingredientFactories.PizzaIngredientFactory;
@@ -28,6 +29,7 @@ public class NYPizzaStore extends PizzaStore {
                 pizza.setName("New York Style Pepperoni Pizza");
                 break;
         }
+        pizza.setCuttingStyle(PizzaCuttingStyle.DIAGONAL);
         return pizza;
     }
 }
