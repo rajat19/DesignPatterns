@@ -1,7 +1,5 @@
 package com.hfdp.strategy.behaviours;
 
-import com.hfdp.strategy.FlyBehaviour;
-
 public class FlyWithWings implements FlyBehaviour {
     @Override
     public void fly() {

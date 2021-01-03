@@ -1,7 +1,6 @@
 package com.hfdp.decorator.condiments;
 
-import com.hfdp.decorator.Beverage;
-import com.hfdp.decorator.CondimentDecorator;
+import com.hfdp.decorator.beverages.Beverage;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;

@@ -1,7 +1,5 @@
 package com.hfdp.decorator.beverages;
 
-import com.hfdp.decorator.Beverage;
-
 public class Espresso extends Beverage {
 
     public Espresso() {

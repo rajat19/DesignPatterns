@@ -1,6 +1,5 @@
 package com.hfdp.strategy.ducks;
 
-import com.hfdp.strategy.Duck;
 import com.hfdp.strategy.behaviours.FlyNoWay;
 import com.hfdp.strategy.behaviours.SqueakSound;
 

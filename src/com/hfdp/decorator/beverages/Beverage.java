@@ -1,4 +1,4 @@
-package com.hfdp.decorator;
+package com.hfdp.decorator.beverages;
 
 public abstract class Beverage {
     protected String description;

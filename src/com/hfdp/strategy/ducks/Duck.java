@@ -1,4 +1,7 @@
-package com.hfdp.strategy;
+package com.hfdp.strategy.ducks;
+
+import com.hfdp.strategy.behaviours.FlyBehaviour;
+import com.hfdp.strategy.behaviours.QuackBehaviour;
 
 public class Duck {
     protected FlyBehaviour flyBehaviour;

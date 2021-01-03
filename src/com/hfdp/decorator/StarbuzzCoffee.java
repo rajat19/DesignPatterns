@@ -1,5 +1,6 @@
 package com.hfdp.decorator;
 
+import com.hfdp.decorator.beverages.Beverage;
 import com.hfdp.decorator.beverages.DarkRoast;
 import com.hfdp.decorator.beverages.Espresso;
 import com.hfdp.decorator.beverages.HouseBlend;

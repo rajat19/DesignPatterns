@@ -1,5 +1,6 @@
 package com.hfdp.strategy;
 
+import com.hfdp.strategy.ducks.Duck;
 import com.hfdp.strategy.ducks.MallardDuck;
 import com.hfdp.strategy.ducks.RubberDuck;
 import com.hfdp.strategy.ducks.WoodenDuck;
