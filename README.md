@@ -12,8 +12,10 @@
 ---
 ## Design patterns
 
-- **Strategy pattern -** defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently of the client that use it.
-- **Observer pattern -** defines a one-to-many dependencies between objects so that when one object changes state, all of its dependents are notified and updated automatically.
-- **Decorator pattern -** attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extended functionality.
+- **Strategy Pattern -** defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently of the client that use it.
+- **Observer Pattern -** defines a one-to-many dependencies between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+- **Decorator Pattern -** attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extended functionality.
 - **Factory Method -** defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory method lets a class defer instantiation to subclasses. 
 - **Abstract Factory -** provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+- **Singleton Pattern -** ensures a class has only one instance, and provides a global point of access to it.
+- **Command Pattern -** encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
