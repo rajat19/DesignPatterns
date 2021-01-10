@@ -1,7 +1,5 @@
 package com.hfdp.command;
 
-import com.hfdp.command.commands.NoCommand;
-
 public class RemoteControlWithUndo extends RemoteControl{
     private Command undoCommand;
 
@@ -9,7 +7,7 @@ public class RemoteControlWithUndo extends RemoteControl{
 
     public RemoteControlWithUndo() {
         super();
-        undoCommand = new NoCommand();
+        undoCommand = () -> {};
     }
 
     public void setCommand(int slot, Command onCommand, Command offCommand) {

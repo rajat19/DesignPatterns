@@ -1,7 +1,5 @@
 package com.hfdp.command;
 
-import com.hfdp.command.commands.NoCommand;
-
 public class RemoteControl {
     protected Command[] onCommands;
     protected Command[] offCommands;
@@ -12,7 +10,6 @@ public class RemoteControl {
         onCommands = new Command[MAX_COMMANDS];
         offCommands = new Command[MAX_COMMANDS];
 
-        Command noCommand = new NoCommand();
         for (int i = 0; i < MAX_COMMANDS; i++) {
             onCommands[i] = () -> {};
             offCommands[i] = () -> {};
