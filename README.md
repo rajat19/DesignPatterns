@@ -27,3 +27,4 @@
 - **Template Pattern -** defines the skeleton of an algorithm in a method., deferring some steps to subclasses. Template Method lets subclass redefine certain steps of an algorithm without changing the algorithm's structure.
 - **Iterator Pattern -** provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 - **Composite Pattern -** allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+- **State Pattern -** allows an object to alter its behaviour when its internal state changes. The object will appear to change its class.
