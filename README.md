@@ -1,4 +1,4 @@
-# Head First Design Patterns
+# Design Patterns (with Java examples)
 
 ## Design principles
 

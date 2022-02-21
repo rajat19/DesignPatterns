@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hfdp.behavioural.observer</OriginalElement>
+  <nodes>
+    <node x="543.9666666666667" y="98.75460122699386">com.hfdp.behavioural.observer.Subject</node>
+    <node x="133.72723244717105" y="328.6687116564417">com.hfdp.behavioural.observer.Observer</node>
+    <node x="520.4666666666667" y="260.0">com.hfdp.behavioural.observer.WeatherData</node>
+    <node x="0.0" y="567.0">com.hfdp.behavioural.observer.display.ForecastDisplay</node>
+    <node x="250.99999999999997" y="545.0">com.hfdp.behavioural.observer.display.StatisticsDisplay</node>
+    <node x="502.0" y="567.0">com.hfdp.behavioural.observer.display.CurrentConditionsDisplay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hfdp.behavioural.observer.Subject" target="com.hfdp.behavioural.observer.Observer" relationship="DEPENDENCY">
+      <point x="-126.0" y="0.0" />
+      <point x="234.227" y="148.25460122699386" />
+      <point x="-15.000232447171044" y="-27.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.WeatherData" target="com.hfdp.behavioural.observer.Observer" relationship="TO_MANY">
+      <point x="-149.5" y="-20.3312883435583" />
+      <point x="115.5" y="0.0" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.display.ForecastDisplay" target="com.hfdp.behavioural.observer.WeatherData" relationship="DEPENDENCY">
+      <point x="57.75" y="-61.0" />
+      <point x="173.25" y="524.0" />
+      <point x="669.9666666666667" y="524.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.display.CurrentConditionsDisplay" target="com.hfdp.behavioural.observer.WeatherData" relationship="DEPENDENCY">
+      <point x="63.25" y="-61.0" />
+      <point x="691.75" y="524.0" />
+      <point x="669.9666666666667" y="524.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.display.StatisticsDisplay" target="com.hfdp.behavioural.observer.WeatherData" relationship="DEPENDENCY">
+      <point x="57.75" y="-83.0" />
+      <point x="424.25" y="524.0" />
+      <point x="669.9666666666667" y="524.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.WeatherData" target="com.hfdp.behavioural.observer.Observer" relationship="DEPENDENCY">
+      <point x="-23.466666666666697" y="-116.5" />
+      <point x="646.5" y="233.0" />
+      <point x="249.227" y="233.0" />
+      <point x="-2.3244717104375923E-4" y="-27.49971165644172" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.WeatherData" target="com.hfdp.behavioural.observer.Subject" relationship="REALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.display.CurrentConditionsDisplay" target="com.hfdp.behavioural.observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="628.5" y="509.0" />
+      <point x="249.227" y="509.0" />
+      <point x="-2.3244717104375923E-4" y="27.50028834355828" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.display.ForecastDisplay" target="com.hfdp.behavioural.observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="115.5" y="509.0" />
+      <point x="249.227" y="509.0" />
+      <point x="-2.3244717104375923E-4" y="27.50028834355828" />
+    </edge>
+    <edge source="com.hfdp.behavioural.observer.display.StatisticsDisplay" target="com.hfdp.behavioural.observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-83.0" />
+      <point x="366.5" y="509.0" />
+      <point x="249.227" y="509.0" />
+      <point x="-2.3244717104375923E-4" y="27.50028834355828" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9702380952380952" showDependencies="true" x="410.0" y="404.5" />
+  <SelectedNodes>
+    <node>com.hfdp.behavioural.observer.Subject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

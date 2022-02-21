@@ -1,3 +1,7 @@
 .idea/
 *.iml
 out/
+src/com/hfdp/behavioural/.DS_Store
+src/com/hfdp/creational/.DS_Store
+src/com/hfdp/structural/.DS_Store
+.DS_Store
