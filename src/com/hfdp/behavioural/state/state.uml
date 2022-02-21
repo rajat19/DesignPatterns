@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hfdp.behavioural.state</OriginalElement>
+  <nodes>
+    <node x="25.57642626480083" y="173.0">com.hfdp.behavioural.state.states.HasQuarterState</node>
+    <node x="577.5" y="515.3358449946179">com.hfdp.behavioural.state.GumballMachine</node>
+    <node x="34.22012917115171" y="401.794402583423">com.hfdp.behavioural.state.states.SoldOutState</node>
+    <node x="19.22012917115171" y="-30.60602798708291">com.hfdp.behavioural.state.states.SoldState</node>
+    <node x="466.4310336195459" y="267.62648008611416">com.hfdp.behavioural.state.states.State</node>
+    <node x="34.22012917115171" y="641.3358449946179">com.hfdp.behavioural.state.states.NoQuarterState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hfdp.behavioural.state.states.SoldOutState" target="com.hfdp.behavioural.state.states.State" relationship="REALIZATION">
+      <point x="21.355870828848282" y="-72.00040258342301" />
+      <point x="184.576" y="369.0" />
+      <point x="303.0" y="369.0" />
+      <point x="303.0" y="321.0" />
+      <point x="-86.00003361954583" y="-7.126480086114157" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.NoQuarterState" target="com.hfdp.behavioural.state.GumballMachine" relationship="DEPENDENCY">
+      <point x="128.99987082884832" y="1.5500538211199455E-4" />
+      <point x="313.0" y="713.336" />
+      <point x="313.0" y="391.5" />
+      <point x="385.0" y="391.5" />
+      <point x="385.0" y="653.336" />
+      <point x="-129.0" y="1.5500538211199455E-4" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.SoldState" target="com.hfdp.behavioural.state.GumballMachine" relationship="TO_ONE">
+      <point x="128.99987082884832" y="15.000027987082909" />
+      <point x="349.0" y="56.394" />
+      <point x="349.0" y="668.336" />
+      <point x="-129.0" y="15.000155005382112" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.SoldState" relationship="TO_ONE">
+      <point x="15.0" y="-138.0" />
+      <point x="721.5" y="-63.105999999999995" />
+      <point x="148.2201291711517" y="-63.105999999999995" />
+      <point x="0.0" y="-72.0" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.SoldOutState" relationship="TO_ONE">
+      <point x="-129.0" y="-115.5" />
+      <point x="129.0" y="64.04144241119491" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.SoldOutState" target="com.hfdp.behavioural.state.GumballMachine" relationship="TO_ONE">
+      <point x="-1.2917115171262594E-4" y="71.99959741657699" />
+      <point x="163.22" y="594.0" />
+      <point x="349.0" y="594.0" />
+      <point x="349.0" y="668.336" />
+      <point x="-129.0" y="15.000155005382112" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.SoldOutState" relationship="CREATE">
+      <point x="-129.0" y="-130.5" />
+      <point x="129.0" y="49.04144241119491" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.SoldState" relationship="CREATE">
+      <point x="0.0" y="-138.0" />
+      <point x="706.5" y="11.393999999999998" />
+      <point x="129.0" y="-29.99997201291709" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.HasQuarterState" target="com.hfdp.behavioural.state.GumballMachine" relationship="DEPENDENCY">
+      <point x="128.9995737351992" y="-15.0" />
+      <point x="385.0" y="230.0" />
+      <point x="385.0" y="653.336" />
+      <point x="-129.0" y="1.5500538211199455E-4" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.State" relationship="DEPENDENCY">
+      <point x="-121.5" y="-138.0" />
+      <point x="32.568966380454185" y="60.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.HasQuarterState" target="com.hfdp.behavioural.state.states.State" relationship="REALIZATION">
+      <point x="128.9995737351992" y="0.0" />
+      <point x="303.0" y="245.0" />
+      <point x="303.0" y="321.0" />
+      <point x="-86.00003361954583" y="-7.126480086114157" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.State" relationship="TO_ONE">
+      <point x="-106.5" y="-138.0" />
+      <point x="47.568966380454185" y="60.5" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.HasQuarterState" relationship="CREATE">
+      <point x="-15.0" y="-138.0" />
+      <point x="691.5" y="215.0" />
+      <point x="129.0" y="-30.0" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.NoQuarterState" relationship="CREATE">
+      <point x="-129.0" y="90.00015500538211" />
+      <point x="129.0" y="30.000155005382112" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.HasQuarterState" target="com.hfdp.behavioural.state.GumballMachine" relationship="TO_ONE">
+      <point x="128.9995737351992" y="15.0" />
+      <point x="349.0" y="260.0" />
+      <point x="349.0" y="668.336" />
+      <point x="-129.0" y="15.000155005382112" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.HasQuarterState" relationship="TO_ONE">
+      <point x="0.0" y="138.0" />
+      <point x="706.5" y="808.8358449946179" />
+      <point x="1.7201291711517115" y="808.8358449946179" />
+      <point x="1.7201291711517115" y="245.0" />
+      <point x="-129.0" y="0.0" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.NoQuarterState" target="com.hfdp.behavioural.state.states.State" relationship="REALIZATION">
+      <point x="-129.0001291711517" y="15.000155005382112" />
+      <point x="-19.0" y="728.336" />
+      <point x="-19.0" y="-48.106" />
+      <point x="303.0" y="-48.106" />
+      <point x="303.0" y="321.0" />
+      <point x="-86.00003361954583" y="-7.126480086114157" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.SoldState" target="com.hfdp.behavioural.state.GumballMachine" relationship="DEPENDENCY">
+      <point x="128.99987082884832" y="2.7987082908964567E-5" />
+      <point x="385.0" y="41.394" />
+      <point x="385.0" y="653.336" />
+      <point x="-129.0" y="1.5500538211199455E-4" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.GumballMachine" target="com.hfdp.behavioural.state.states.NoQuarterState" relationship="TO_ONE">
+      <point x="-129.0" y="75.00015500538211" />
+      <point x="129.0" y="15.000155005382112" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.NoQuarterState" target="com.hfdp.behavioural.state.GumballMachine" relationship="TO_ONE">
+      <point x="-1.2917115171262594E-4" y="-71.99984499461789" />
+      <point x="163.22" y="594.0" />
+      <point x="349.0" y="594.0" />
+      <point x="349.0" y="668.336" />
+      <point x="-129.0" y="15.000155005382112" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.SoldOutState" target="com.hfdp.behavioural.state.GumballMachine" relationship="DEPENDENCY">
+      <point x="128.99987082884832" y="-4.025834230105829E-4" />
+      <point x="313.0" y="473.794" />
+      <point x="313.0" y="391.5" />
+      <point x="385.0" y="391.5" />
+      <point x="385.0" y="653.336" />
+      <point x="-129.0" y="1.5500538211199455E-4" />
+    </edge>
+    <edge source="com.hfdp.behavioural.state.states.SoldState" target="com.hfdp.behavioural.state.states.State" relationship="REALIZATION">
+      <point x="128.99987082884832" y="-14.999972012917091" />
+      <point x="303.0" y="26.394" />
+      <point x="303.0" y="321.0" />
+      <point x="-86.00003361954583" y="-7.126480086114157" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="408.5" y="370.50000000000006" />
+  <SelectedNodes>
+    <node>com.hfdp.behavioural.state.GumballMachine</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
